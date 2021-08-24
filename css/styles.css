@@ -75,6 +75,71 @@ p {
   margin-left: 75px;
 }
 
+/* Features Section */
+.fts-box {
+  padding: 5%;
+}
+
+.fts-title {
+  font-size: 1.5rem;
+}
+
+.fts-icon {
+  color: #ef8172;
+  font-size: 4.5rem;
+  margin: auto auto 1rem auto;
+}
+
+.fts-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+.testimonial-image {
+  margin: 20px;
+  border-radius: 100%;
+  width: 10%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Section */
+.press-image {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Section */
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer Section  */
+.social-icons {
+  padding: 1.5% 1%;
+}
+
+/********************************ID SELECTOR********************************/
+#features {
+  position: relative;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/********************************MEDIA SELECTOR********************************/
+
 @media (max-width: 990px) {
   .title-heading {
     text-align: center;
@@ -119,72 +184,3 @@ p {
     margin: 3%;
   }
 }
-
-/* Features Section */
-.fts-box {
-  padding: 5%;
-}
-
-.fts-title {
-  font-size: 1.5rem;
-}
-
-.fts-icon {
-  color: #ef8172;
-  font-size: 4.5rem;
-  margin: auto auto 1rem auto;
-}
-
-.fts-icon:hover {
-  color: #ff4c68;
-}
-
-/* Testimonial Section */
-.testimonial-image {
-  margin: 20px;
-  border-radius: 100%;
-  width: 10%;
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/* Press Section */
-.press-image {
-  margin: 20px 20px 50px;
-  width: 15%;
-}
-
-/* Pricing Section */
-/* .pricing-plans {
-  padding: 3% 2%;
-} */
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/* Footer Section  */
-.social-icons {
-  padding: 1.5% 1%;
-}
-
-/********************************ID SELECTOR********************************/
-#features {
-  position: relative;
-}
-
-#testimonials {
-  background-color: #ef8172;
-}
-
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-/* #pricing {
-  padding: 100px;
-} */
