@@ -75,7 +75,7 @@ p {
   margin-left: 75px;
 }
 
-@media (max-width: 1028px) {
+@media screen & (max-width: 1028px) {
 
   #title {
     text-align: center;
